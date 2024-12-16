@@ -1,0 +1,108 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    /* padding: 1rem; */
+    margin: 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+    /* font-weight: ; */
+    font-style: normal;
+}
+
+
+
+.dev-img{
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    border-radius: 5rem;
+    background-image: url('assets/images/avatar-jessica.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card{
+    /* border: 1px solid black; */
+    font-family: Inter;
+    /* width: 100%; */
+    padding: 1.6rem;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.dev-info{
+    /* border: 1px solid red; */
+    padding: 1rem;
+    width: 100%;
+    /* border-radius: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev-name{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dev-info h2{
+    /* color: yellow; */
+    margin: 0;
+    margin-top: 1rem;
+}
+.dev-location{
+    color:hsl(75, 94%, 57%) ;
+}
+
+
+.socials-container{
+    /* border: 1px solid green; */
+    width: 100%;
+    padding: 1rem;
+    /* border-radius: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.socials-container button{
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    padding: .8rem;
+    border-radius: .5rem;
+}
+.socials-container button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+
+
+@media(min-width:768px){
+    
+    .card{
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+}
